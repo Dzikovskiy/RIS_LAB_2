@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="RIS.Lab2:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/RIS_Lab2_ejb_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="RIS.Lab2/ejb/EJB" />
+      <element id="module-output" name="RIS.Lab2" />
+    </root>
+  </artifact>
+</component>

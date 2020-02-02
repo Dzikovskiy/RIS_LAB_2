@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="RIS.Lab2:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/RIS_Lab2_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="RIS.Lab2/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="RIS.Lab2:war exploded" />
+      </element>
+      <element id="directory" name="ejb.jar">
+        <element id="artifact" artifact-name="RIS.Lab2:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
