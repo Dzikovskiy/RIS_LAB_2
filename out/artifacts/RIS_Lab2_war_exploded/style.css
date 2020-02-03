@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+button {
+    display: inline-block;
+    vertical-align: top;
+    border: 3px solid #fff;
+    margin-left: 15px;
+    padding: 7px 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #008CBA;
+    transition: background 0.1s linear, color .1s linear;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007296;
+}
+
+.delete_btn {
+    background-color: #ff4453;
+}
+.delete_btn:hover{
+    background-color: #c82442;
+}
+select {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+}

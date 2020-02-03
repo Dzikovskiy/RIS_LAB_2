@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Shop</title>
+</head>
+<body>
+<form action="ShopServlet" method="POST">
+    <h1>Shop</h1><br/>
+    Category: <input name="category"/>
+    Model: <input name="model"/>
+    Price: <input name="price"/>
+    Status: <select name="available">
+    <option>Available</option>
+    <option>Not available</option>
+    <br><br>
+</select>
+    <button type="submit" name="button" value="add_btn">Add</button>
+    <br/>
+    <br><br>
+    <br/>
+    Price range from: <input name="from"/> to:<input name="to"/>
+    <button type="submit" name="button" value="range_btn">find</button>
+    <br/>
+    Product: <br><br>
+    <div>
+
+    </div>
+</form>
+</body>
+</html>

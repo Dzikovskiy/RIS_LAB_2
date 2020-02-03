@@ -13,6 +13,8 @@ public class ConverterServlet extends HttpServlet {
 
     @EJB
     Converter converter;
+    @EJB
+    Shop shop;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
